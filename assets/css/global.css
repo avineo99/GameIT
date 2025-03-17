@@ -326,7 +326,9 @@ h1 {
 .header-icon ul li a img:hover {
     filter: brightness(0) invert(0)
 }
-
+.most-popular .swiper-button-next,  .most-popular .swiper-button-prev {
+    top: 40%;
+}
 .cst-btn:hover {
     background-color: #000 !important;
     box-shadow: rgba(100, 100, 111, .2) 0 7px 29px 0
@@ -457,7 +459,7 @@ h1 {
     }
 }
 
-@media(max-width:992px) {
+@media(max-width:991px) {
     .navbar-collapse {
         background: #fff;
         box-shadow: rgba(100, 100, 111, .2) 0 7px 29px 0
@@ -586,23 +588,7 @@ h1 {
         display: none
     }
 
-    .carousel-control-next,
-    .carousel-control-prev {
-         top: auto;
-        bottom: 30px
-    }
 
-    .most-popular .swiper-button-prev,
-    .most-popular .swiper-container-rtl .swiper-button-next,
-    .site-banner .carousel-control-prev {
-        left: 40%
-    }
-
-    .most-popular .swiper-button-next,
-    .most-popular .swiper-container-rtl .swiper-button-prev,
-    .site-banner .carousel-control-next {
-        right: 40%
-    }
 
     .most-popular .swiper-button-next,
     .most-popular .swiper-button-prev,
@@ -614,9 +600,8 @@ h1 {
         height: 1.3rem
     }
 
-    .swiper-button-next,
-    .swiper-button-prev {
-        top: 110%
+    .most-popular .swiper-button-next, .most-popular .swiper-button-prev {
+        top: 44%;
     }
 
     .sub-wrap {
@@ -626,7 +611,7 @@ h1 {
         height: 100%;
         object-fit: cover
     }
-    div#navbarSupportedContent{
+    /* div#navbarSupportedContent{
         width: 100%;
-    }
+    } */
 }
