@@ -18,16 +18,16 @@
   </head>
   <body>
     <!-- header section start -->
-    <header class="site-header py-4">  
+    <header class="site-header ">  
         <nav class="navbar navbar-expand-lg navbar-light p-0">
-          <div class="container">
+          <div class="container position-relative py-4">
             <a class="navbar-brand p-0" href="index.html"><img src="assets/images/logo.svg" alt="Site Logo" class="site-logo"></a>
 
             <div class="mobile-right d-flex d-lg-none align-items-center">
               <div class="header-icon ">
                 <ul class="d-flex">
                   <li>
-                    <a href="#">
+                    <a href="#serch"  class="srch_btn">
                       <img src="assets/images/serch_icon.svg" alt="serch icon">
                     </a>
                   </li>
@@ -42,6 +42,15 @@
                     </a>
                   </li>
                 </ul>
+                <div id="search" class="position-absolute top-100 mt-3 end-0" >
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <div class="input-group-append">
+                      <button class="btn bg-danger" type="submit">Submit</button>
+                    </div>
+                  </div>
+                </div>
+
               </div>
               <button class="navbar-toggler ms-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -54,7 +63,7 @@
             <div class="collapse navbar-collapse p-lg-0 p-4 " id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item me-xxl-5 me-xl-4 me-lg-3 me-md-2">
-                  <a class="nav-link text-uppercase text-dark fs-18    " aria-current="page" href="#">Home</a>
+                  <a class="nav-link text-uppercase text-dark fs-18    " aria-current="page" href="index.html">Home</a>
                 </li>
                 <li class="nav-item me-xxl-5 me-xl-4 me-lg-3 me-md-2">
                   <a class="nav-link text-uppercase text-dark fs-18  active" href="about-us.html">About us</a>
@@ -79,10 +88,10 @@
 
             </div>
 
-            <div class="header-icon d-none d-lg-block ms-2 ms-xl-0">
+            <div class="header-icon d-none d-lg-block ms-2 ms-xl-0 ">
               <ul class="d-flex">
                 <li>
-                  <a href="#">
+                  <a href="#" class="srch_btn">
                     <img src="assets/images/serch_icon.svg" alt="serch icon">
                   </a>
                 </li>
@@ -97,6 +106,14 @@
                   </a>
                 </li>
               </ul>
+              <div id="search" class="position-absolute top-100 mt-3 end-0" >
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                  <div class="input-group-append">
+                    <button class="btn bg-danger" type="submit">Submit</button>
+                  </div>
+                </div>
+              </div>
             </div>
 
 

@@ -35,11 +35,11 @@ $(document).ready(function () {
 
 
 
-$(".toggle").click(function () {
-    $("header").addClass("menuToggle");
-});
-$(".close, .close_overlay").click(function () {
-  $("header").removeClass("menuToggle");
+
+
+
+$(".srch_btn").click(function () {
+  $("header").toggleClass("serch_show");
 });
 
 AOS.init({
