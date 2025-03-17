@@ -6,28 +6,11 @@ body {margin: 0; padding: 0}
 .cst-btn, .popular-prod-img img, .popular-wrap p, .product-bx, a { transition: .3s linear}
 
 
-* {
-    box-sizing: border-box
-}
-
-body {
-    font-family: Oswald, sans-serif
-}
-
-img {
-    width: 100%;
-    max-width: 100%
-}
-
-ul {
-    list-style: none;
-    margin-bottom: 0;
-    padding-left: 0
-}
-
-a {
-    text-decoration: none
-}
+* {box-sizing: border-box}
+body {font-family: Oswald, sans-serif}
+img {width: 100%; max-width: 100%}
+ul {list-style: none; margin-bottom: 0; padding-left: 0 }
+a {text-decoration: none}
 
 .container {
     max-width: 100rem;
@@ -160,6 +143,10 @@ h1 {
 .site-logo {
     max-width: 160px
 }
+
+
+
+
 #search{
     display: none;
     width: 300px;
@@ -169,7 +156,8 @@ h1 {
     display: block;
 }
 #search input{
-    width: 75%;
+    width: 74%;
+    z-index: 9;
 }
 #search .btn-check:focus+.btn, #search .btn:focus {
     box-shadow: none;
@@ -502,6 +490,31 @@ h1 {
     .popular-bx {
         height: 17rem
     }
+    .toggle {
+        width: 25px;
+    }
+    div#navbarSupportedContent {
+        position: fixed;
+        left: 0;
+        top: 0;
+        display: block !important;
+        height: 100vh;
+        z-index: 99;
+        width: 300px;
+        padding: 50px !important;
+        transition: all 0.3s linear;
+        transform: translateX(-100%);
+
+    }
+    .menuToggle div#navbarSupportedContent{
+        transform: translateX(0%);
+    }
+    .close {
+        width: 16px;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
 }
 
 @media(max-width:767px) {
@@ -612,5 +625,8 @@ h1 {
   .sub-wrap img {
         height: 100%;
         object-fit: cover
+    }
+    div#navbarSupportedContent{
+        width: 100%;
     }
 }

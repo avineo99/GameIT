@@ -17,21 +17,50 @@
     <title>GameIT</title>
   </head>
   <body>
-    <!-- header section start -->
-    <header class="site-header ">  
-        <nav class="navbar navbar-expand-lg navbar-light p-0">
-          <div class="container position-relative py-4">
-            <a class="navbar-brand p-0" href="index.html"><img src="assets/images/logo.svg" alt="Site Logo" class="site-logo"></a>
-
-            <div class="mobile-right d-flex d-lg-none align-items-center">
-              <div class="header-icon ">
+         <!-- header section start -->
+         <header class="site-header ">  
+          <nav class="navbar navbar-expand-lg navbar-light p-0">
+            <div class="container position-relative py-4">
+              <a class="navbar-brand p-0" href="index.html"><img src="assets/images/logo.svg" alt="Site Logo" class="site-logo img-fluid w-100"></a>
+             <div class="collapse navbar-collapse p-lg-0 p-4 " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item me-xxl-5 me-xl-4 me-lg-3 me-md-2">
+                    <a class="nav-link text-uppercase text-dark fs-18  " aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item me-xxl-5 me-xl-4 me-lg-3 me-md-2">
+                    <a class="nav-link text-uppercase text-dark fs-18  active " href="about-us.html">About us</a>
+                  </li>
+                  <li class="nav-item me-xxl-5 me-xl-4 me-lg-3 me-md-2">
+                    <a class="nav-link text-uppercase text-dark fs-18" href="#">Component</a>
+                  </li>
+                  <li class="nav-item me-xxl-5 me-xl-4 me-lg-3 me-md-2">
+                    <a class="nav-link text-uppercase text-dark fs-18" href="#">Peripherals</a>
+                  </li>
+                  <li class="nav-item me-xxl-5 me-xl-4 me-lg-3 me-md-2">
+                    <a class="nav-link text-uppercase text-dark fs-18" href="#">Monitors</a>
+                  </li>
+                  <li class="nav-item me-xxl-5 me-xl-4 me-lg-3 me-md-2">
+                    <a class="nav-link text-uppercase text-dark fs-18" href="#">Offers</a>
+                  </li>
+                  <li class="nav-item me-xxl-5 me-xl-4 me-lg-3 me-md-2">
+                    <a class="nav-link text-uppercase text-dark fs-18" href="#">contact us</a>
+                  </li>
+                  
+                </ul>
+                <div class="close d-block d-lg-none">
+                   <img src="assets/images/close.png" alt="" class="img-fluid w-100">
+                </div>
+    
+              </div>
+    
+              <div class="header-icon d-flex align-items-center ms-2 ms-xl-0 ">
                 <ul class="d-flex">
                   <li>
-                    <a href="#serch"  class="srch_btn">
+                    <a href="javascript:(0)" class="srch_btn">
                       <img src="assets/images/serch_icon.svg" alt="serch icon">
                     </a>
                   </li>
-                  <li class=" mx-3">
+                  <li class="mx-4 ">
                     <a href="#">
                       <img src="assets/images/user_icon.svg" alt="user icon">
                     </a>
@@ -42,6 +71,9 @@
                     </a>
                   </li>
                 </ul>
+                <div class="toggle d-block d-lg-none ms-3">
+                   <img src="assets/images/menu.png" alt="" class="img-fluid w-100">
+                </div>
                 <div id="search" class="position-absolute top-100 mt-3 end-0" >
                   <div class="input-group">
                     <input type="text" class="form-control" placeholder="Search">
@@ -50,84 +82,20 @@
                     </div>
                   </div>
                 </div>
-
               </div>
-              <button class="navbar-toggler ms-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+    
+    
+    
+    
             </div>
-
-
-       
-
-            <div class="collapse navbar-collapse p-lg-0 p-4 " id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item me-xxl-5 me-xl-4 me-lg-3 me-md-2">
-                  <a class="nav-link text-uppercase text-dark fs-18    " aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item me-xxl-5 me-xl-4 me-lg-3 me-md-2">
-                  <a class="nav-link text-uppercase text-dark fs-18  active" href="about-us.html">About us</a>
-                </li>
-                <li class="nav-item me-xxl-5 me-xl-4 me-lg-3 me-md-2">
-                  <a class="nav-link text-uppercase text-dark fs-18" href="#">Component</a>
-                </li>
-                <li class="nav-item me-xxl-5 me-xl-4 me-lg-3 me-md-2">
-                  <a class="nav-link text-uppercase text-dark fs-18" href="#">Peripherals</a>
-                </li>
-                <li class="nav-item me-xxl-5 me-xl-4 me-lg-3 me-md-2">
-                  <a class="nav-link text-uppercase text-dark fs-18" href="#">Monitors</a>
-                </li>
-                <li class="nav-item me-xxl-5 me-xl-4 me-lg-3 me-md-2">
-                  <a class="nav-link text-uppercase text-dark fs-18" href="#">Offers</a>
-                </li>
-                <li class="nav-item me-xxl-5 me-xl-4 me-lg-3 me-md-2">
-                  <a class="nav-link text-uppercase text-dark fs-18" href="#">contact us</a>
-                </li>
-                
-              </ul>
-
-            </div>
-
-            <div class="header-icon d-none d-lg-block ms-2 ms-xl-0 ">
-              <ul class="d-flex">
-                <li>
-                  <a href="#" class="srch_btn">
-                    <img src="assets/images/serch_icon.svg" alt="serch icon">
-                  </a>
-                </li>
-                <li class="mx-4 ">
-                  <a href="#">
-                    <img src="assets/images/user_icon.svg" alt="user icon">
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img src="assets/images/cart_icon.svg" alt="cart icon">
-                  </a>
-                </li>
-              </ul>
-              <div id="search" class="position-absolute top-100 mt-3 end-0" >
-                <div class="input-group">
-                  <input type="text" class="form-control" placeholder="Search">
-                  <div class="input-group-append">
-                    <button class="btn bg-danger" type="submit">Submit</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-
-
-          </div>
-        </nav>
-    </header>
-    <!-- header section end -->
+          </nav>
+      </header>
+      <!-- header section end -->
 
 <!-- sub banner section start -->
 <div class="sub-banner">
   <div class="sub-wrap">
-      <img src="assets/images/about_banner.jpg" alt="About us banner">
+      <img src="assets/images/about_banner.jpg" alt="About us banner" class="w-100 img-fluid ">
   </div>
 </div>
 
@@ -160,22 +128,22 @@
       <div class="row">
           <div class="col-lg-3 col-md-6 col-sm-6 my-3 my-lg-0" data-aos="fade-right" data-aos-duration="1200">
               <div class="abt-img">
-                  <img src="assets/images/abt_img_1.jpg" alt="about img 1" class="h-100">
+                  <img src="assets/images/abt_img_1.jpg" alt="about img 1" class="w-100 img-fluid  ">
               </div>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-6 my-3 my-lg-0" data-aos="fade-up" data-aos-duration="1500">
               <div class="abt-img">
-                  <img src="assets/images/abt_img_2.jpg" alt="about img 2" class="h-100">
+                  <img src="assets/images/abt_img_2.jpg" alt="about img 2" class="w-100 img-fluid ">
               </div>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-6 my-3 my-lg-0" data-aos="fade-up" data-aos-duration="1500">
               <div class="abt-img">
-                  <img src="assets/images/abt_img_3.jpg" alt="about img 3" class="h-100">
+                  <img src="assets/images/abt_img_3.jpg" alt="about img 3" class="w-100 img-fluid ">
               </div>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-6 my-3 my-lg-0" data-aos="fade-left" data-aos-duration="1200">
               <div class="abt-img">
-                  <img src="assets/images/abt_img_4.jpg" alt="about img 4" class="h-100">
+                  <img src="assets/images/abt_img_4.jpg" alt="about img 4" class="w-100 img-fluid ">
               </div>
           </div>
       </div>
@@ -200,7 +168,7 @@
           <div class="newsletter-group po-r m-auto mt-lg-5 mt-4" data-aos="fade-up"  data-aos-duration="1600">
             <input type="email" placeholder="Enter your email address" class="border rounded-pill py-2 px-4 w-100 h-100 fs-17 ffr" >
             <button type="submit" class="border-0 position-absolute top-50 translate-middle-y end-0">
-              <img src="assets/images/send_icon.svg" alt="Send icon" >
+              <img src="assets/images/send_icon.svg" alt="Send icon" class="w-100 img-fluid ">
             </button>
           </div>
         </form>
@@ -272,6 +240,7 @@
                         <img
                           src="assets/images/FACEBOOK.svg"
                           alt="Facebook Icon"
+                          class="w-100 img-fluid "
                         >
                       </a>
                     </li>
@@ -280,6 +249,7 @@
                         <img
                           src="assets/images/instagram.svg"
                           alt="Instagram Icon"
+                          class="w-100 img-fluid "
                         >
                       </a>
                     </li>
@@ -288,6 +258,7 @@
                         <img
                           src="assets/images/twitter.svg"
                           alt="Twitter Icon"
+                          class="w-100 img-fluid "
                         >
                       </a>
                     </li>
@@ -307,6 +278,7 @@
                         <img
                           src="assets/images/payments_icon-1.png"
                           alt="Payment icon 1"
+                          class="w-100 img-fluid "
                         >
                       </a>
                     </li>
@@ -315,6 +287,7 @@
                         <img
                           src="assets/images/payments_icon-2.png"
                           alt="Payment icon 2"
+                          class="w-100 img-fluid "
                         >
                       </a>
                     </li>
@@ -323,6 +296,7 @@
                         <img
                           src="assets/images/payments_icon-3.png"
                           alt="Payment icon 3"
+                          class="w-100 img-fluid "
                         >
                       </a>
                     </li>
@@ -331,6 +305,7 @@
                         <img
                           src="assets/images/payments_icon-4.png"
                           alt="Payment icon 4"
+                          class="w-100 img-fluid "
                         >
                       </a>
                     </li>
@@ -339,6 +314,7 @@
                         <img
                           src="assets/images/payments_icon-5.png"
                           alt="Payment icon 5"
+                          class="w-100 img-fluid "
                         >
                       </a>
                     </li>
@@ -347,6 +323,7 @@
                         <img
                           src="assets/images/payments_icon-6.png"
                           alt="Payment icon 6"
+                          class="w-100 img-fluid "
                         >
                       </a>
                     </li>
